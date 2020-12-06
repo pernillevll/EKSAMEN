@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Præsentationsportfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+     <a href="index.html" class="header-brand">Pernille Vildsø</a>
+     <nav>
+       <ul>
+         <li><a href="portfolio.html">Portfolio</a></li>
+         <li><a href="about.html">About me</a></li>
+         <li><a href="contact.html">Contact</a></li>
+       </ul>
+     </nav>
+    </header>
+    <main>
+      <section class="index-banner">
+        <div class="vertical-center">
+          <h2>I AM A <br>MULTIMEDIA <br>DESIGNER</h2>
+          <h1>With specialty in photography, filmmaking, UX-design and social media management</h1>
+        </div>
+      </section>
+      <div class="wrapper">
+        <section class="index-links">
+          <a href="cases.html">
+            <div class="index-boxlink-square">
+              <h3>Cases</h3>
+            </div>
+          </a>
+          <a href="#">
+            <div class="index-boxlink-rectangle">
+              <h3>Portfolio</h3>
+            </div>
+          </a>
+          <a href="#">
+            <div class="index-boxlink-square">
+              <h3>mmtuts</h3>
+            </div>
+          </a>
+          <a href="#">
+            <div class="index-boxlink-rectangle">
+              <h3>Youtube Channel</h3>
+            </div>
+          </a>
+          <a href="#">
+            <div class="index-boxlink-square">
+              <h3>About</h3>
+            </div>
+          </a>
+          <a href="#">
+            <div class="index-boxlink-square">
+              <h3>Contact</h3>
+            </div>
+          </a>
+        </section>
+    </main>
+    <footer>
+      <ul class="footer-links-main">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Cases</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="footer-link-cases">
+        <li>Latest cases</li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+      <div class="footer-sm">
+        <a href="#">
+          <img scr="img/youtube.png" alt="youtube icon">
+        </a>
+        <a href="#">
+          <img scr="img/.instagram.jpeg" alt="instagram icon">
+        </a>
+        <a href="#">
+          <img scr="img/facebook.jpg" alt="facebook icon">
+        </a>
+        </div>
+    </footer>
+    </div>
+  </body>
+</html>
