@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Præsentationsportfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+     <a href="index.html" class="header-brand">PERNILLE VILDSØ</a>
+     <nav>
+       <ul>
+         <li><a href="portfolio.html">PORTFOLIO</a></li>
+         <li><a href="about.html">ABOUT ME</a></li>
+         <li><a href="contact.html">CONTACT</a></li>
+       </ul>
+     </nav>
+    </header>
+    <main>
+      <section class="index-banner">
+        <div class="vertical-center">
+          <h2>MULTIMEDIA <br>DESIGNER</h2>
+          <h1>With specialty in photography</h1>
+        </div>
+      </section>
+      <div class="wrapper">
+        <section class="index-links">
+          <a href="#">
+            <div class="index-boxlink-square">
+              <h3>PHOTOGRAPHY PORTRAIT</h3>
+            </div>
+          </a>
+          <a href="#">
+            <div class="index-boxlink-square">
+              <h3>PHOTOGRAPHY LANDSCAPE</h3>
+            </div>
+          </a>
+          <a href="#">
+            <div class="index-boxlink-square">
+              <h3>ADOBE PHOTOSHOP</h3>
+            </div>
+          </a>
+          <a href="#">
+            <div class="index-boxlink-square">
+              <h3>ADOBE PREMIER PRO</h3>
+            </div>
+          </a>
+          <a href="#">
+            <div class="index-boxlink-square">
+              <h3>ADOBE XD</h3>
+            </div>
+          </a>
+          <a href="#">
+            <div class="index-boxlink-square">
+              <h3>WORDPRESS</h3>
+            </div>
+          </a>
+        </section>
+    </main>
+    <footer>
+      <ul class="footer-links-main">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="footer-sm">
+        <a href="#">
+          <img src="img/instagram.png" alt="instagram icon">
+        </a>
+        <a href="#">
+          <img src="img/facebook.jpeg" alt="facebook icon">
+        </a>
+        <a href="#">
+          <img src="img/" alt="">
+        </a>
+        </div>
+    </footer>
+  </body>
+</html>
