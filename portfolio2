@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Præsentationsportfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+     <a href="index.html" class="header-brand">PERNILLE VILDSØ</a>
+     <nav>
+       <ul>
+         <li><a href="portfolio.html">PORTFOLIO</a></li>
+         <li><a href="index.html#about">ABOUT</a></li>
+         <li><a href="index.html#contact">CONTACT</a></li>
+       </ul>
+     </nav>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="vertical-center">
+          <h2>MULTIMEDIA <br>DESIGNER</h2>
+          <h1>With specialty in photography</h1>
+        </div>
+      </section>
+        <section class="portfolio-links">
+          <a href="side1.html">
+            <div class="portfolio-boxlink">
+              <h3>PHOTOGRAPHY</h3>
+            </div>
+          </a>
+          <a href="side2.html">
+            <div class="portfolio-boxlink">
+              <h3>PHOTOGRAPHY</h3>
+            </div>
+          </a>
+          <a href="side3.html">
+            <div class="portfolio-boxlink">
+              <h3>ADOBE PHOTOSHOP</h3>
+            </div>
+          </a>
+          <a href="side4.html">
+            <div class="portfolio-boxlink">
+              <h3>ADOBE PREMIERE PRO</h3>
+            </div>
+          </a>
+          <a href="side5.html">
+            <div class="portfolio-boxlink">
+              <h3>ADOBE XD</h3>
+            </div>
+          </a>
+          <a href="side6.html">
+            <div class="portfolio-boxlink">
+              <h3>WORDPRESS</h3>
+            </div>
+          </a>
+        </section>
+    </main>
+    <footer>
+     <div class="footer">Copyright © Pernille Vildsø</div>
+    </footer>
+  </body>
+</html>
