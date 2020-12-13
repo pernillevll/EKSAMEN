@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Præsentationsportfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+     <a href="index.html" class="header-brand">PERNILLE VILDSØ</a>
+     <nav>
+       <ul>
+         <li><a href="portfolio.html">PORTFOLIO</a></li>
+         <li><a href="index.html#about">ABOUT</a></li>
+         <li><a href="index.html#contact">CONTACT</a></li>
+       </ul>
+     </nav>
+    </header>
+    <main>
+      <section class="content">
+            <div class="headline">
+            <h2>ADOBE XD</h2>
+            </div>
+        <div class="site">
+              <img class="photo1" src="img/original.png"></img>
+              <img class="photo2" src="img/redesign.png"></img>
+              <img class="photo3" src="img/foodapp.png"></img>
+            <div class="tekst">
+              <h2>Redesign af hjemmeside</h2>
+              <p>Denne case er et redesign af en hjemmeside, som havde visse visuelle og brugervenlige barrierer. Selve redesignet er kreeret og udviklet i Adobe XD. Både den oprindelige hjemmeside og mit redesign af denne ses herunder.<br><a href="http://limos.dk/">ORIGINAL</a> <br><a href="https://adobe.ly/3oOM0cd">REDESIGN</a>
+              </p>
+            </div>
+            <div class="tekst2">
+            <h3>Foodapplikation</h3>
+            <p>Denne case er også designet i Adobe XD. Dette er dog ikke et redesign, men en madapplikation til mobilen designet fra bunden. Dette mockup giver en visuel fornemmelse af en rigtig applikation, da der både er kreeret logo, farver, billeder og knapper, der virker og viser appens funktioner. Hele madapp'en kan ses herunder. <br><a href="https://adobe.ly/3495z7n">FOODAPP</a> </p>
+            </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">Copyright © Pernille Vildsø</div>
+    </footer>
+  </body>
+</html>
