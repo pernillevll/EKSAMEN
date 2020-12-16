@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Præsentationsportfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+     <a href="index.html" class="header-brand">PERNILLE VILDSØ</a>
+     <nav>
+       <ul>
+         <li><a href="portfolio.html">PORTFOLIO</a></li>
+         <li><a href="index.html#about">ABOUT</a></li>
+         <li><a href="index.html#contact">CONTACT</a></li>
+       </ul>
+     </nav>
+    </header>
+    <main>
+      <section>
+        <div class="header">
+        <h2>PHOTO EDITING</h2>
+        </div>
+        <div class="site3">
+            <img alt="billede" class="kasse1" src="img/dame.png"/>
+            <img alt="billede" class="kasse2" src="img/dame1.png"/>
+          <div class="text">
+          <p>This piece of photo editing has been done with Adobe Photoshop. A painting had to be selected for a school project in which some element of the painting had to be altered. For that reason I chose the painting seen above of a naked lady and added in a burger, a beer, and a football cap. I wanted to keep as much of the feminine touch from the original painting while also adding something to contrast for a balanced blend of elements.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">Copyright © Pernille Vildsø</div>
+    </footer>
+  </body>
+</html>
