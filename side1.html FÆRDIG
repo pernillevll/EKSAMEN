@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Præsentationsportfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+     <a href="index.html" class="header-brand">PERNILLE VILDSØ</a>
+     <nav>
+       <ul>
+         <li><a href="portfolio.html">PORTFOLIO</a></li>
+         <li><a href="index.html#about">ABOUT</a></li>
+         <li><a href="index.html#contact">CONTACT</a></li>
+       </ul>
+     </nav>
+    </header>
+    <main>
+      <div class="title"><h2>PHOTOGRAPHY</h2></div>
+      <section class="gallery">
+         <img alt="billede" class="photo" src="img/fugl.jpeg"/>
+         <img alt="billede" class="photo" src="img/abe.png"/>
+         <img alt="billede" class="photo" src="img/dyr.png"/>
+         <img alt="billede" class="photo" src="img/gnaver.png"/>
+         <img alt="billede" class="photo" src="img/odder.png"/>
+         <img alt="billede" class="photo" src="img/bier.png"/>
+         <img alt="billede" class="photo" src="img/katte.png"/>
+      </section>
+    </main>
+    <footer>
+     <div class="footer">Copyright © Pernille Vildsø</div>
+    </footer>
+  </body>
+</html>
