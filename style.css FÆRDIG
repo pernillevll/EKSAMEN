@@ -1,0 +1,1062 @@
+/* reset stylesheet code from html5doctor.com */
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/* MY CODE */
+
+* {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* HEADER + NAV */
+
+header {
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+}
+
+header .header-brand {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #8a8a8a;;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header .header-brand:hover {
+  color: black;
+}
+
+header nav ul {
+  margin: 0 auto;
+  text-align: center;
+  width: fit-content;
+}
+
+header nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 16px;
+}
+
+header nav ul li a{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #8a8a8a;
+}
+
+header nav ul li a:hover {
+  color: black;
+}
+
+
+/* BANNER */
+
+.banner {
+  width: 100%;
+  height: 500px;
+  background-image: url('img/banner.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.vertical-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.banner h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+  margin-top: 80%;
+}
+
+.banner h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+
+/* PORTFOLIO */
+
+.portfolio-links div {
+  margin: 16px 16px 0;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  border: 0.2rem solid black;
+}
+
+.portfolio-links div h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 100px;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/* ABOUT */
+
+.about-wrapper {
+  height: 250px;
+}
+
+.about {
+  width: 100%;
+  padding: 100px 0px;
+  border-bottom: 0.2rem solid;
+}
+
+.about h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: -15%;
+  padding-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.about p {
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  line-height: 25px;
+  padding: 25px;
+}
+
+.about p br {
+  display: none;
+}
+
+.quote {
+  display: none;
+}
+
+.aboutphoto img  {
+  display: none;
+}
+
+.about .citat {
+ display: none;
+}
+
+/* CONTACT */
+
+.contact-wrapper {
+  height: 50px;
+}
+
+.contact {
+  width: 100%;
+  padding: 60px 0px;
+}
+
+.contact h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.contact p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 10px;
+  line-height: 25px;
+}
+
+.social-media {
+  align-items: center;
+  margin-left: 25%;
+}
+
+.social-media img {
+  width: 50px;
+  margin: 20px;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.contact-form {
+  display: none;
+}
+
+
+/*SIDE 1 OG 2*/
+
+.gallery div {
+  margin: 16px 16px 0;
+  height: 200px;
+  background-color: lightblue;
+  padding-bottom: 30px;
+}
+
+.gallery img {
+  width: 92%;
+  height: 100%;
+  margin: 16px 16px 0;
+}
+
+.title h2 {
+  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+/* SIDE 3 */
+
+.header h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 60px;
+  margin-top: 40px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.site3 {
+  display: grid;
+  grid-template-columns: 5% 1fr 5%;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+  "photo photo photo"
+  "photo photo photo"
+  "text text text";
+}
+
+.kasse1 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-left: 1.5%;
+  grid-area: photo;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.kasse2 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-left: 1.5%;
+  margin-top: 10%;
+  grid-area: photo;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.text {
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 20px;
+  margin: 10% 2%;
+  text-align: left;
+  grid-area: text;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+/* SIDE 4 */
+
+.title4 h2 {
+  font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.videotekst p {
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 22px;
+  margin: 30px 15px;
+}
+
+.video {
+  width: 100%;
+  height: 250px;
+  background-color: white;
+}
+
+.wrapper1 {
+  margin-left: 12.5px;
+  margin-top: 30px;
+}
+
+.wrapper2 {
+  display: none;
+}
+
+
+/* SIDE 5 */
+
+.headline {
+  width: 100%;
+  text-align: center;
+}
+
+.headline h2{
+  font-size: 25px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.site {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "xdpictures"
+  "xdpictures"
+  "xdtext"
+  "xdpictures"
+  "xdtext";
+}
+
+.photo1 {
+  width: 100%;
+  height: auto;
+  margin: 5% 0;
+  object-fit: cover;
+  border: 0.1rem solid lightgrey;
+  grid-area: xdpictures;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  align-self: center;
+  justify-self: center;
+}
+
+.photo2 {
+  width: 90%;
+  height: auto;
+  margin: 0;
+  grid-area: xdpictures;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  align-self: center;
+  justify-self: center;
+}
+
+.photo3 {
+  width: 90%;
+  height: auto;
+  margin: 0;
+  object-fit: cover;
+  grid-area: xdpictures;
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  align-self: center;
+  justify-self: center;
+}
+
+.tekst {
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 20px;
+  text-align: left;
+  margin: 0 5%;
+  margin-bottom: 40px;
+  grid-area: xdtext;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  align-self: center;
+  justify-self: center;
+}
+
+.tekst h2 {
+  font-size: 20px;
+  margin: 40px 1px 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.tekst p a {
+  text-decoration: underline;
+  color: black;
+}
+
+.tekst p br {
+  display: none;
+}
+
+.tekst2 p a {
+  text-decoration: underline;
+  color: black;
+}
+
+.tekst2 p br {
+  display: none;
+}
+
+.tekst2 {
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 20px;
+  text-align: left;
+  margin: 0 5%;
+  grid-area: xdtext;
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+  align-self: center;
+  justify-self: center;
+}
+
+.tekst2 h3 {
+  font-size: 20px;
+  margin: 40px 2px 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* SIDE 6 */
+
+.title5 h2 {
+  font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.videotekst1 p {
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 22px;
+  margin: 30px 15px;
+}
+
+.videotekst1 p a {
+  color: black;
+  text-decoration: underline;
+}
+
+.video {
+  width: 100%;
+  height: 250px;
+  background-color: white;
+}
+
+.wrapper3 {
+  margin-left: 12.5px;
+  margin-top: 30px;
+}
+
+.wrapper4 {
+  display: none;
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  height: 50px;
+  padding: 20px 0px;
+  margin-top: 15px;
+  background-color: #222;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+/* DESKTOP VERSION */
+
+@media only screen and (min-width: 1000px) {
+
+  header .header-brand {
+    margin: 31px 0;
+    text-align: left;
+    line-height: 38px;
+    padding: 0 20px 0 40px;
+    float: left;
+  }
+
+  header nav ul {
+    margin: 20px 0px 0px 20px;
+    float: right;
+  }
+
+  header nav ul li a {
+    line-height: 60px;
+  }
+
+  /* BANNER */
+
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .banner {
+    width: 100%;
+    height: 450px;
+  }
+
+  .banner h1 {
+    display: block;
+    width: 560px;
+    margin-right: 43px;
+    float: right;
+    text-align: right;
+  }
+
+  .banner h2 {
+    margin-right: 60px;
+    text-align: right;
+    margin-top: 0px;
+  }
+
+
+  /* KONTAKT */
+
+  .grid-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "contactme contactformular";
+  }
+
+  .contact {
+    width: 100%;
+    padding: 60px 0px;
+  }
+
+  .contact-wrapper {
+    height: 50px;
+  }
+
+  .contact {
+    width: 100%;
+    padding: 60px 0px;
+  }
+
+  .contact h2 {
+    font-size: 24px;
+    text-align: left;
+    padding-bottom: 30px;
+    margin-left: 10%;
+  }
+
+  .contact p {
+    font-size: 16px;
+    text-align: left;
+    margin: 10px;
+    line-height: 25px;
+    margin-left: 10%;
+  }
+
+  .social-media {
+    margin-left: 8%;
+  }
+
+  .social-media img {
+    width: 50px;
+    margin: 20px;
+    margin-top: 100px;
+  }
+
+  .kontakt1 {
+    grid-area: contactme;
+    grid-column: 1 / 2;
+    padding-left: 15%;
+  }
+
+  .contact h1 {
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    padding-bottom: 5%;
+  }
+
+  .contact-form h1 {
+  }
+
+  .contact-form {
+    background-color: #fff;
+    display: block;
+    margin-left: 22%;
+    grid-area: contactformular;
+    grid-column: 2 / 3;
+  }
+
+  .contact-form form input {
+    width: 71%;
+    height: 30px;
+    margin-bottom: 4px;
+    border: 1px solid black;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .contact-form form textarea {
+    width: 71%;
+    height: 130px;
+    margin-bottom: 4px;
+    border: 1px solid black;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    resize: none;
+  }
+
+  .contact-form button {
+    width: 80px;
+    height: 30px;
+    background-color: lightgrey;
+    border: none;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  /* ABOUT */
+
+  .grid-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "aboutme aboutphoto";
+  }
+
+  .about-wrapper {
+    grid-area: aboutme;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .aboutphoto {
+    margin: auto;
+    grid-area: aboutphoto;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .aboutphoto img {
+    width: 400px;
+    height: auto;
+    border-radius: 2%;
+    object-fit: cover;
+    display: block;
+    grid-area: aboutphoto;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .about {
+    width: 100%;
+    padding: 80px 0px;
+    border-bottom: 0.2rem solid;
+  }
+
+  .about h2 {
+    font-size: 24px;
+    text-align: left;
+    padding-bottom: 20px;
+    margin-left: 24%;
+    margin-top: 2%;
+  }
+
+  .about p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 25px;
+    padding: 25px;
+    margin-left: 20%;
+  }
+
+  .about p br {
+    display: block;
+  }
+
+  .about .citat {
+   font-size: 18px;
+   display: block;
+  }
+
+  .quote {
+    display: block;
+    width: 100%;
+  }
+
+  .quote p {
+    font-size: 20px;
+  }
+
+  /* PORTFOLIO */
+
+  .portfolio-links {
+    padding-bottom: 20px;
+    overflow: hidden;
+  }
+
+  .portfolio-links div {
+    margin: 60px 30px 30px;
+    height: 230px;
+    float: left;
+  }
+
+  .portfolio-boxlink {
+    width: calc(30% - 20px) !important;
+  }
+
+  .portfolio-links div h3 {
+    line-height: 230px;
+  }
+
+  /* SIDE 1 og 2*/
+
+  .gallery {
+    margin: 10px;
+    margin-left: 25%;
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    padding-bottom: 30px;
+  }
+
+  .gallery img {
+    margin: 16px 16px 0;
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+  }
+
+ /* SIDE 3*/
+
+ .site3 {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 2fr 2fr 1fr;
+   grid-template-areas:
+   "photo photo photo"
+   "photo photo photo"
+   "text text text"
+ }
+
+ .kasse1 {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+   grid-area: photo;
+   grid-column: 2 / 3;
+   grid-row: 1 / 2;
+ }
+
+ .kasse2 {
+   width: 100%;
+   height: auto;
+   margin-bottom: 7%;
+   object-fit: cover;
+   grid-area: photo;
+   grid-column: 2 / 3;
+   grid-row: 2 / 3;
+ }
+
+ .text {
+   font-size: 16px;
+   font-family: 'Quicksand', sans-serif;
+   line-height: 20px;
+   margin: 2% 6px;
+   text-align: left;
+   grid-area: text;
+   grid-column: 2 / 3;
+   grid-row: 3 / 4;
+ }
+
+ /*SIDE 4*/
+
+  .wrapper1 {
+   display: none;
+  }
+
+  .video {
+   width: 100%;
+   height: 540px;
+  }
+
+  .wrapper2 {
+   display: block;
+   margin-top: 60px;
+   text-align: center;
+  }
+
+  .videotekst {
+   border: 0.1rem solid white;
+   height: 30%;
+   width: 40%;
+   margin-left: 30%;
+   margin-top: 2%;
+ }
+
+ .videotekst p {
+   font-size: 16px;
+   font-family: 'Quicksand', sans-serif;
+   margin: 10px 2%;
+   line-height: 25px;
+ }
+
+ /*SIDE 5*/
+
+
+ .headline {
+   width: 100%;
+   text-align: center;
+ }
+
+ .headline h2{
+   font-size: 30px;
+   margin-bottom: 60px;
+   margin-top: 40px;
+   font-family: 'Quicksand', sans-serif;
+ }
+
+ .site {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   grid-template-areas:
+   "xdpictures"
+   "xdpictures"
+   "xdtext"
+   "xdpictures"
+   "xdtext";
+ }
+
+ .photo1 {
+   width: 50%;
+   height: auto;
+   margin: 0;
+   border: 0.1rem solid lightgrey;
+   grid-area: xdpictures;
+   grid-column: 1 / 2;
+   grid-row: 1 / 2;
+   align-self: center;
+   justify-self: center;
+ }
+
+ .photo2 {
+   width: 40%;
+   height: auto;
+   margin: 0;
+   margin-top: 3%;
+   grid-area: xdpictures;
+   grid-column: 1 / 2;
+   grid-row: 2 / 3;
+   align-self: center;
+   justify-self: center;
+ }
+
+ .photo3 {
+   width: 20%;
+   height: auto;
+   margin: 0;
+   grid-area: xdpictures;
+   grid-column: 1 / 2;
+   grid-row: 4 / 5;
+   align-self: center;
+   justify-self: center;
+ }
+
+ .tekst {
+   width: 40%;
+   font-size: 16px;
+   font-family: 'Quicksand', sans-serif;
+   line-height: 20px;
+   text-align: left;
+   align-self: center;
+   justify-self: center;
+   margin: 0;
+   margin-bottom: 20px;
+   grid-area: xdtext;
+   grid-column: 1 / 2;
+   grid-row: 3 / 4;
+ }
+
+ .tekst h2 {
+   font-size: 20px;
+   margin: 40px 1px 20px;
+ }
+
+ .tekst2 {
+   width: 40%;
+   font-size: 16px;
+   font-family: 'Quicksand', sans-serif;
+   line-height: 20px;
+   text-align: left;
+   margin: 0%;
+   grid-area: xdtext;
+   grid-column: 1 / 2;
+   grid-row: 5 / 6;
+   align-self: center;
+   justify-self: center;
+ }
+
+ .tekst2 h3 {
+   font-size: 20px;
+   margin: 40px 2px 20px;
+ }
+
+
+ /* SIDE 6 */
+
+ .title5 h2 {
+   font-size: 30px;
+   font-family: 'Quicksand', sans-serif;
+   text-align: center;
+   margin: 20px;
+ }
+
+ .videotekst1 p {
+   border: 0.1rem solid white;
+   height: 30%;
+   width: 40%;
+   margin-left: 30%;
+   margin-top: 2%;
+ }
+
+ .videotekst1 p a {
+   color: black;
+   text-decoration: underline;
+ }
+
+ .video {
+   width: 100%;
+   height: 540px;
+   background-color: white;
+ }
+
+ .wrapper3 {
+   display: none;
+ }
+
+ .wrapper4 {
+   display: block;
+   margin-top: 60px;
+   text-align: center;
+ }
+
+}
