@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Præsentationsportfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+     <a href="index.html" class="header-brand">PERNILLE VILDSØ</a>
+     <nav>
+       <ul>
+         <li><a href="portfolio.html">PORTFOLIO</a></li>
+         <li><a href="index.html#about">ABOUT</a></li>
+         <li><a href="index.html#contact">CONTACT</a></li>
+       </ul>
+     </nav>
+    </header>
+    <main>
+      <div class="title5"><h2>WORDPRESS</h2></div>
+      <section>
+         <div class="video">
+           <div class="wrapper3">
+             <iframe width="350" height="250" src="https://www.youtube.com/embed/oOfZmw8VySE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
+           <div class="wrapper4">
+             <iframe width="960" height="540" src="https://www.youtube.com/embed/oOfZmw8VySE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
+         </div>
+      </section>
+      <div class="videotekst1">
+        <p>The video above contains my process portfolio for the multimedia designers education program, which has been completed using WordPress. I have enjoyed working with it and have become more fond of and experienced in the use of WordPress as a result of it. If you want to take a look at and browse around on the webpage on your own I have made a link to it here. <a href="https://proces.pernillespointofview.online/">PROCESPORTFOLIO</a></p>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">Copyright © Pernille Vildsø</div>
+    </footer>
+  </body>
+</html>
