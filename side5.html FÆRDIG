@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Præsentationsportfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+     <a href="index.html" class="header-brand">PERNILLE VILDSØ</a>
+     <nav>
+       <ul>
+         <li><a href="portfolio.html">PORTFOLIO</a></li>
+         <li><a href="index.html#about">ABOUT</a></li>
+         <li><a href="index.html#contact">CONTACT</a></li>
+       </ul>
+     </nav>
+    </header>
+    <main>
+      <section>
+          <div class="headline">
+            <h2>ADOBE XD</h2>
+            </div>
+        <div class="site">
+              <img alt="billede" class="photo1" src="img/original.png"/>
+              <img alt="billede" class="photo2" src="img/redesign.png"/>
+              <img alt="billede" class="photo3" src="img/foodapp.png"/>
+            <div class="tekst">
+              <h2>Redesign af hjemmeside</h2>
+              <p>This project is a re-design of a webpage that presented certain challenges<br> in both visual and user-friendly categories. The re-design itself has been <br>made and developed using Adobe XD. Only the two front pages have been<br> shown here. The original webpage in its entirety, as well as my re-design of it,<br> can be seen here. <a href="http://limos.dk/">ORIGINAL</a> & <a href="https://adobe.ly/3oOM0cd">REDESIGN</a>
+              </p>
+            </div>
+            <div class="tekst2">
+            <h3>Foodapplikation</h3>
+            <p>This project has also been designed using Adobe XD. This is not a re-design,<br> however, but a food application for your cell phone designed from scratch.<br> This prototype demonstrates a visual idea of what a real application would<br> look like, because it contains everything from a logo and colours to pictures<br> and active buttons that show the functions of the app. This is just the front<br> page. The complete food app can be seen here. <a href="https://adobe.ly/3495z7n">FOODAPP</a> </p>
+            </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">Copyright © Pernille Vildsø</div>
+    </footer>
+  </body>
+</html>
