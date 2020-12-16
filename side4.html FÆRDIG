@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Præsentationsportfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+     <a href="index.html" class="header-brand">PERNILLE VILDSØ</a>
+     <nav>
+       <ul>
+         <li><a href="portfolio.html">PORTFOLIO</a></li>
+         <li><a href="index.html#about">ABOUT</a></li>
+         <li><a href="index.html#contact">CONTACT</a></li>
+       </ul>
+     </nav>
+    </header>
+    <main>
+      <div class="title4"><h2>ONE DAY IN MY LIFE</h2></div>
+      <section>
+         <div class="video">
+           <div class="wrapper1">
+             <iframe width="350" height="250" src="https://www.youtube.com/embed/vFg7-cEnC8s" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
+           <div class="wrapper2">
+             <iframe width="960" height="540" src="https://www.youtube.com/embed/vFg7-cEnC8s" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
+         </div>
+      </section>
+      <div class="videotekst">
+        <p>For the video seen above I have done the shooting and the editing myself. Seeing as it was a school project, it was a requirement that it be shot with a cell phone camera and edited using Adobe Premiere Pro. During editing cuts have been made in the takes, and sound and transitions have been added depending on the mood of the take.  </p>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">Copyright © Pernille Vildsø</div>
+    </footer>
+  </body>
+</html>
